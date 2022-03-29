@@ -3,8 +3,8 @@ package policies
 import (
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/pagination"
 )
 
 // QoSPolicyExt represents additional resource attributes available with the QoS extension.

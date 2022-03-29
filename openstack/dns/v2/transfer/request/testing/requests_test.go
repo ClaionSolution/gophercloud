@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	transferRequests "github.com/gophercloud/gophercloud/openstack/dns/v2/transfer/request"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	transferRequests "github.com/nexclipper/gophercloud/openstack/dns/v2/transfer/request"
+	"github.com/nexclipper/gophercloud/pagination"
+	th "github.com/nexclipper/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud/testhelper/client"
 )
 
 func TestList(t *testing.T) {

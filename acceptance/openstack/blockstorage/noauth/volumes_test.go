@@ -6,9 +6,9 @@ package noauth
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/volumes"
+	"github.com/nexclipper/gophercloud/acceptance/clients"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	"github.com/nexclipper/gophercloud/openstack/blockstorage/v3/volumes"
 )
 
 func TestVolumesList(t *testing.T) {

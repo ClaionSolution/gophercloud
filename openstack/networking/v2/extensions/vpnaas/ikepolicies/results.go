@@ -1,8 +1,8 @@
 package ikepolicies
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/pagination"
 )
 
 // Policy is an IKE Policy

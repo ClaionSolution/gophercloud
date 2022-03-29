@@ -1,7 +1,7 @@
 package diagnostics
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/nexclipper/gophercloud"
 )
 
 type serverDiagnosticsResult struct {

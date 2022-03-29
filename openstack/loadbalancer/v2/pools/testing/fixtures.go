@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/pools"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/nexclipper/gophercloud/openstack/loadbalancer/v2/pools"
+	th "github.com/nexclipper/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud/testhelper/client"
 )
 
 // PoolsListBody contains the canned body of a pool list response.

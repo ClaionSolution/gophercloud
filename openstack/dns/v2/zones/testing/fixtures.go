@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/dns/v2/zones"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/openstack/dns/v2/zones"
+	th "github.com/nexclipper/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud/testhelper/client"
 )
 
 // List Output is a sample response to a List call.

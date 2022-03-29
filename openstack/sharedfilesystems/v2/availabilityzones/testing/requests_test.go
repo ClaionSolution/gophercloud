@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/availabilityzones"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/nexclipper/gophercloud/openstack/sharedfilesystems/v2/availabilityzones"
+	th "github.com/nexclipper/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud/testhelper/client"
 )
 
 // Verifies that availability zones can be listed correctly

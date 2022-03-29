@@ -3,11 +3,11 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/listeners"
-	fake "github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/testhelper"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/openstack/loadbalancer/v2/listeners"
+	fake "github.com/nexclipper/gophercloud/openstack/loadbalancer/v2/testhelper"
+	"github.com/nexclipper/gophercloud/pagination"
+	th "github.com/nexclipper/gophercloud/testhelper"
 )
 
 func TestListListeners(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud"
+	th "github.com/nexclipper/gophercloud/testhelper"
 )
 
 func TestMaybeString(t *testing.T) {

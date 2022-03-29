@@ -6,10 +6,10 @@ package layer3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/addressscopes"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud/acceptance/clients"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	"github.com/nexclipper/gophercloud/openstack/networking/v2/extensions/layer3/addressscopes"
+	th "github.com/nexclipper/gophercloud/testhelper"
 )
 
 func TestAddressScopesCRUD(t *testing.T) {

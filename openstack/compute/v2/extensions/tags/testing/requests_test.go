@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/tags"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/nexclipper/gophercloud/openstack/compute/v2/extensions/tags"
+	th "github.com/nexclipper/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud/testhelper/client"
 )
 
 func TestList(t *testing.T) {

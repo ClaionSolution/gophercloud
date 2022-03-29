@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/qos/ruletypes"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/nexclipper/gophercloud/openstack/networking/v2/extensions/qos/ruletypes"
+	th "github.com/nexclipper/gophercloud/testhelper"
+	fake "github.com/nexclipper/gophercloud/testhelper/client"
 )
 
 func TestListRuleTypes(t *testing.T) {

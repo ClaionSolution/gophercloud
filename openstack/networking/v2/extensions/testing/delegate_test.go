@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"testing"
 
-	common "github.com/gophercloud/gophercloud/openstack/common/extensions"
-	fake "github.com/gophercloud/gophercloud/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	common "github.com/nexclipper/gophercloud/openstack/common/extensions"
+	fake "github.com/nexclipper/gophercloud/openstack/networking/v2/common"
+	"github.com/nexclipper/gophercloud/openstack/networking/v2/extensions"
+	"github.com/nexclipper/gophercloud/pagination"
+	th "github.com/nexclipper/gophercloud/testhelper"
 )
 
 func TestList(t *testing.T) {

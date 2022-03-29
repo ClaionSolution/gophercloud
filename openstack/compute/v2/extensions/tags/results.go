@@ -1,6 +1,6 @@
 package tags
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/nexclipper/gophercloud"
 
 type commonResult struct {
 	gophercloud.Result

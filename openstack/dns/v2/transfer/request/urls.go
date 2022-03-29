@@ -1,6 +1,6 @@
 package request
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/nexclipper/gophercloud"
 
 const (
 	rootPath     = "zones"

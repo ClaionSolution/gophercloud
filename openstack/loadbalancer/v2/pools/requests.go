@@ -1,9 +1,9 @@
 package pools
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/monitors"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/openstack/loadbalancer/v2/monitors"
+	"github.com/nexclipper/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

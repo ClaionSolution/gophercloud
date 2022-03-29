@@ -3,11 +3,11 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/vlantransparent"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	"github.com/nexclipper/gophercloud/openstack/networking/v2/extensions/vlantransparent"
+	"github.com/nexclipper/gophercloud/openstack/networking/v2/networks"
+	th "github.com/nexclipper/gophercloud/testhelper"
 )
 
 // VLANTransparentNetwork represents OpenStack V2 Networking Network with the

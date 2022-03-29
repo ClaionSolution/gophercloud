@@ -1,7 +1,7 @@
 package limits
 
 import (
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/nexclipper/gophercloud/pagination"
 )
 
 // A limit is the limit that override the registered limit for each project.

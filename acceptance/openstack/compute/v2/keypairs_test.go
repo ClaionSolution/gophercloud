@@ -6,12 +6,12 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	identity "github.com/gophercloud/gophercloud/acceptance/openstack/identity/v3"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/keypairs"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud/acceptance/clients"
+	identity "github.com/nexclipper/gophercloud/acceptance/openstack/identity/v3"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	"github.com/nexclipper/gophercloud/openstack/compute/v2/extensions/keypairs"
+	"github.com/nexclipper/gophercloud/openstack/compute/v2/servers"
+	th "github.com/nexclipper/gophercloud/testhelper"
 	"golang.org/x/crypto/ssh"
 )
 

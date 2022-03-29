@@ -1,6 +1,6 @@
 package testing
 
-import "github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/bgp/speakers"
+import "github.com/nexclipper/gophercloud/openstack/networking/v2/extensions/bgp/speakers"
 
 const ListBGPSpeakerResult = `
 {

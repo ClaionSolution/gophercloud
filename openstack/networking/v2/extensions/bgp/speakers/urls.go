@@ -1,6 +1,6 @@
 package speakers
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/nexclipper/gophercloud"
 
 const urlBase = "bgp-speakers"
 

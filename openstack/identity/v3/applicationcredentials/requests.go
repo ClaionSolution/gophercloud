@@ -3,8 +3,8 @@ package applicationcredentials
 import (
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to

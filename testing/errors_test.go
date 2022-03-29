@@ -3,8 +3,8 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud"
+	th "github.com/nexclipper/gophercloud/testhelper"
 )
 
 func TestGetResponseCode(t *testing.T) {

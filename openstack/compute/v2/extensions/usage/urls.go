@@ -1,6 +1,6 @@
 package usage
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/nexclipper/gophercloud"
 
 const resourcePath = "os-simple-tenant-usage"
 

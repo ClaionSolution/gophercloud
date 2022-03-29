@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/l7policies"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/listeners"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/loadbalancers"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/monitors"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/pools"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/nexclipper/gophercloud/openstack/loadbalancer/v2/l7policies"
+	"github.com/nexclipper/gophercloud/openstack/loadbalancer/v2/listeners"
+	"github.com/nexclipper/gophercloud/openstack/loadbalancer/v2/loadbalancers"
+	"github.com/nexclipper/gophercloud/openstack/loadbalancer/v2/monitors"
+	"github.com/nexclipper/gophercloud/openstack/loadbalancer/v2/pools"
+	th "github.com/nexclipper/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud/testhelper/client"
 )
 
 // LoadbalancersListBody contains the canned body of a loadbalancer list response.

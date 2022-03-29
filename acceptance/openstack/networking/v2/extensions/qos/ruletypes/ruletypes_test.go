@@ -3,10 +3,10 @@ package ruletypes
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/common/extensions"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/qos/ruletypes"
+	"github.com/nexclipper/gophercloud/acceptance/clients"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	"github.com/nexclipper/gophercloud/openstack/common/extensions"
+	"github.com/nexclipper/gophercloud/openstack/networking/v2/extensions/qos/ruletypes"
 )
 
 func TestRuleTypes(t *testing.T) {

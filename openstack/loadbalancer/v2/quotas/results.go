@@ -3,7 +3,7 @@ package quotas
 import (
 	"encoding/json"
 
-	"github.com/gophercloud/gophercloud"
+	"github.com/nexclipper/gophercloud"
 )
 
 type commonResult struct {
