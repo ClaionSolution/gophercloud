@@ -227,6 +227,8 @@ type Server struct {
 	// contain at most one entry.
 	// New in microversion 2.71
 	ServerGroups *[]string `json:"server_groups"`
+
+	Description string `json:"description"`
 }
 
 type AttachedVolume struct {
